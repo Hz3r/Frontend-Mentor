@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="h-screen flex flex-col justify-center items-center p-8">
+
+  <main class="bg-dark-desaturated-blue h-full rounded-xl  overflow-hidden sm:grid sm:grid-cols-2 sm:h-[400px] sm:w-[1200px]">
+    <div class=" sm:h-full relative h-[35%] overflow-hidden">
+      <img class="h-full w-full object-cover" src="../images/image-header-mobile.jpg" alt="">
+      <div class="absolute inset-0 bg-soft-violet  mix-blend-multiply"></div>
+    </div>
+    <div class="sm:justify-between sm:items-start sm:h-full sm:text-left sm:p-16 flex flex-col items-center text-center  w-full h-[65%] gap-5 px-3 py-2 overflow-hidden">
+      
+      <div class="flex flex-col gap-2 sm:gap-5">
+        <h1 class="text-[26px] sm:text-[30px]">Get<span class="text-soft-violet p-3">insights</span>that help your business grow</h1>
+        <p class=" sm:text-xl  sm:leading-none text-xs leading-5 text-transparent-white-paragraph">Discover the benefits of data analytics and make
+          better decisions regarding revenue, customer
+          experience, and overall efficiency.</p>
+      </div>
+  
+
+      <div class="sm:flex-row flex flex-col gap-5 ">
+
+        <div class="flex flex-col items-center justify-center gap-2">
+
+          <span class="font-bold text-xl">10k+</span>
+          <span class="text-transparent-white-stats uppercase text-[10px] tracking-widest">companies</span>
+        </div>
+        <div class=" gap-2 flex flex-col items-center justify-center"> <span class="font-bold text-xl">314</span>
+          <span class="text-transparent-white-stats uppercase text-[10px] tracking-widest"> templates</span>
+        </div>
+        <div class=" gap-2 flex flex-col items-center justify-center"> <span class="font-bold text-xl">12M+</span>
+          <span class="text-transparent-white-stats uppercase text-[10px] tracking-widest"> queries</span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="output.css">
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="bg-DarkCyan h-screen font-kumbh">
+  <main class="h-full w-full relative flex justify-center items-center overflow-hidden">
+
+    <div class="absolute top-64   sm:left-[50%] sm:top-[50%] left-64">
+      <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+        </defs>
+        <ellipse fill="url(#a)" transform="scale(1 -1) rotate(45 1669.55 0)" cx="489" cy="489" rx="489" ry="488"
+          fill-rule="evenodd" opacity=".25" />
+      </svg>
+    </div>
+
+    <div class="absolute bottom-64 right-64  sm:bottom-[50%] sm:right-[50%]">
+      <svg width="978" height="978" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="a">
+            <stop stop-color="#0989B4" stop-opacity="0" offset="0%" />
+            <stop stop-color="#53FFEE" offset="99.94%" />
+          </linearGradient>
+        </defs>
+        <ellipse fill="url(#a)" transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488" fill-rule="evenodd"
+          opacity=".5" />
+      </svg>
+    </div>
+
+    <!-- CARTA -->
+    <div class="relative bg-white w-80 h-96 sm:w-[370px] rounded-xl overflow-hidden">
+      <!-- header-carta -->
+      <div class=" relative bg-black  ">
+        <!-- header -->
+        <div class="h-36 w-full  overflow-hidden ">
+          <img class="h-full w-full object-cover"
+            src="https://cdn.pixabay.com/photo/2013/02/20/10/33/bubbles-83683_1280.jpg" alt="">
+        </div>
+        <!--profile  -->
+        <div
+          class=" bg-white p-1 absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 rounded-full h-24 w-24 overflow-hidden">
+          <div class="rounded-full h-full w-full overflow-hidden">
+            <img class="object-cover h-full w-full" src="../images/image-victor.jpg" alt="">
+
+          </div>
+        </div>
+      </div>
+      <!-- desccription carta -->
+
+      <div class="relative flex flex-col items-center justify-end h-36 gap-1 border-b-[1px] pb-6 border-gray ">
+        <h1 class="text-desaturated font-semibold flex gap-2">Victor Crest <span
+            class=" font-normal text-gray">26</span></h1>
+        <p class="text-gray text-[15px]">London</p>
+      </div>
+      <div class="flex items-center  justify-center  h-24 gap-10 ">
+        <div class="flex flex-col items-center">
+          <h3 class="text-desaturated font-bold text-xl">80K</h3>
+          <span class="text-grayish text-xs tracking-widest">Followers</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <h3 class="text-desaturated font-bold text-xl">803K</h3>
+          <span class="text-grayish text-xs tracking-widest">Likes</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <h3 class="text-desaturated font-bold text-xl">1.4K</h3>
+          <span class="text-grayish text-xs tracking-widest">Photos</span>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </main>
+
+
+
+</body>
+
+</html>
