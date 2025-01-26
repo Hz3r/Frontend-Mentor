@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+    /* Primary Colors */
+    --color-cyan: hsl(179, 62%, 43%);
+    --color-bright-yellow: hsl(71, 73%, 54%);
+  
+    /* Neutral Colors */
+    --color-light-gray: hsl(204, 43%, 93%);
+    --color-grayish-blue: hsl(218, 22%, 67%);
+  
+    /* Typography */
+    --font-family-karla: 'Karla', sans-serif;
+  }
+  
+  @layer base {
+    body {
+      font-family: var(--font-family-karla);
+
+
+    }
+  
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-family-karla);
+      font-weight: 700;
+    }
+  
+    p {
+      font-weight: 400;
+      color: var(--color-grayish-blue);
+    }
+  
+    a {
+      color: var(--color-cyan);
+      text-decoration: none;
+    }
+  }
+  
